@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cuprum', sans-serif;
+
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 700;
+
+  background-color: #ffffff;
+  min-width: 960px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.main-header {
+  background-color: #f4f7f9;
+}
+
+
+.header-panel,
+.main-navigation {
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: #293449;
+}
+
+.header-panel a,
+.main-navigation a {
+  color: #ffffff;
+}
+ ul {
+  list-style: none;
+ }
+
+ .header-information li:first-child {
+   font-size: 16px;
+   line-height:23px;
+   font-style: italic;
+ }
+  .phone {
+    width: 270px;
+    height: 45px;
+    border: solid 3px #ffffff;
+    font-size: 21px;
+    line-height: 21px;
+    color: #ee3643;
+
+  }
+  .adress {
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 10px;
+    color: #32425c;
+  }
+
+  .user-navigation li {
+    width: 121px;
+    height: 45px;
+    background-color: #ffffff;
+  }
+  .login-link,
+  .registration {
+
+    font-size: 21px;
+    line-height: 21px;
+    color: #000000;
+  }
+
+  .info h2,
+  .Contacts h2 {
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+  }
+  .about-us,
+  .order-info,
+  .Contacts p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+  }
+
+  .transport-companys {
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+  }
+
+  .company-details,
+  .feedback,
+  .button {
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+  }
+
+  .your-name,
+  .your-email,
+  .message-text {
+    font-size: 18px;
+    line-height: 18px;
+    font-style: normal;
+  }
+
+  .feedback-user,
+  .feedback-email,
+  .feedback-message {
+   font-size: 13px;
+   line-height: 18px;
+   font-family: 'PT Sans', sans-serif;
+   color: #a9a9a9;
+  }
+
+  .button,
+  .company-details,
+  .feedback {
+    width: 460px;
+  height: 38px;
+  background-color: #ee3643;
+  }
+
+  .main-footer {
+    background-color: #32425c;
+  }
+
+  .small-navigation a,
+  .adress-footer{
+    font-size: 18px;
+    line-height: 24px;
+    color: #f1f5f7;
+  }
+
+  .footer-extra-nav a {
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffd180;
+  }
+
+  .footer-end {
+    background-color: #293449;
+  }
+
+  .footer-copyright,
+  .footer-contacts,
+  p
+   {
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+  }
+
+  .academy-mail,
+  .academy-cite {
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffd180;
+  }
