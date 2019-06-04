@@ -58,16 +58,48 @@
         <li>Автотрейдинг</li>
         <li>ЖелДорЭкспедиция</li>
       </ul>
-        <a href="#" class="company-details"></a>
+        <a href="#" class="company-details">Подробнее о компании</a>
     </section>
     <section class="Contacts">
       <h2>Контакты</h2>
         <p>ВЫ можете забрать товар сами,<br>
           заехав в наш офис:
         </p>
-          <img src="img/map.jpg">
-            <a href="#" class="connect-us">
+    <a href="#" class="feedback">Заблудились? Напишите нам.</a>
     </section>
+    <section class="modal modal-map">
+        <h2 class="visually-hidden">
+          Как до нас добраться
+        </h2>
+        <p>
+          <img src="img/map.jpg" width="780" height="560" alt="#">
+        </p>
+        <button class="modal-close" type="button">
+          Закрыть
+        </button>
+    </section>
+    <section class="feedback modal-feedback">
+        <h2 class="visually-hidden">
+          Напишите нам
+        </h2>
+        <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
+          <p>
+            <label class="visually-hidden" for="user-name">Ваше имя</label>
+            <input class="feedback-user" id="user-name" type="text" name="name" placeholder="Имя фамилия">
+          </p>
+          <p>
+            <label class="visually-hidden" for="user-email">Пароль</label>
+            <input class="feedback-email" id="user-email" type="text" name="email" placeholder="email@example.com">
+          </p>
+          <p>
+            <label class="visually-hidden" for="user-message"></label>
+            <input class="feedback-message" id="user-message" type="text" name="message" placeholder="В свободной форме">
+          </p>
+          <button class="button" type="send">
+            Отправить
+          </button>
+        </form>
+      </section>
 
     </main>
 
