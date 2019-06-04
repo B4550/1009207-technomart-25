@@ -41,6 +41,7 @@ a {
    font-size: 16px;
    line-height:23px;
    font-style: italic;
+
  }
   .phone {
     width: 270px;
@@ -83,6 +84,7 @@ a {
     font-family: 'PT Sans', sans-serif;
     font-size: 13px;
     line-height: 24px;
+    color: #000000;
   }
 
   .transport-companys {
@@ -105,6 +107,7 @@ a {
     font-size: 18px;
     line-height: 18px;
     font-style: normal;
+    color: #000000;
   }
 
   .feedback-user,
@@ -146,7 +149,7 @@ a {
   }
 
   .footer-copyright,
-  .footer-contacts,
+  .footer-contacts
   p
    {
     font-size: 16px;
